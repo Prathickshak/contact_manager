@@ -1,7 +1,5 @@
 import streamlit as st
 
-# Define functions for each operation
-
 def display_menu():
     st.sidebar.title("Contact Management Menu")
     menu = ["View Contacts", "Add a New Contact", "Search for a Contact", "Delete a Contact", "Exit"]
